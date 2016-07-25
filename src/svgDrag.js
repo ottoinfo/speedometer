@@ -66,7 +66,7 @@ export default class svgDrag {
       distanceEnd = this.distance(this.path.getPointAtLength(currentPostion % this.totalLength), tempPoint)
     }
     currentPostion -= direction
-    this.callback(parseInt(currentPostion/this.totalLength*100) - 100 )
+    this.callback(parseInt(currentPostion / this.totalLength * 100) - 100)
     return (currentPostion % this.totalLength)
   }
 
