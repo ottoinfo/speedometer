@@ -47,7 +47,7 @@
 	"use strict";var _svgDrag=__webpack_require__(1);var _svgDrag2=_interopRequireDefault(_svgDrag);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}// Circle Example
 	var paper=Raphael(20,20,500,250);// import React from "react"
 	var path=paper.circle(125,125,100).attr({"stroke-width":8});var startPoint=path.getPointAtLength(0);var circle=paper.ellipse(startPoint.x,startPoint.y,10,10).attr({stroke:"none",fill:"#f00"});var text=paper.text().attr({x:135,y:125,"font-size":36,"font-family":"Arial, Helvetica, sans-serif",text:"0%"});new _svgDrag2.default(path,circle,function(percent){text.attr({text:percent+"%"});});// Curve Line Example
-	var paper2=Raphael(20,20,500,250);var path2=paper2.path(["M",50,150,"Q",225,20,400,150]).attr({"stroke-width":8});var startPoint2=path.getPointAtLength(0);var circle2=paper2.ellipse(startPoint2.x,startPoint2.y,10,10).attr({stroke:"none",fill:"#f00"});var text2=paper2.text().attr({x:135,y:125,"font-size":36,"font-family":"Arial, Helvetica, sans-serif",text:"0%"});new _svgDrag2.default(path2,circle2,function(percent){text2.attr({text:percent+"%"});});
+	var paper2=Raphael(20,250,500,350);var path2=paper2.path(["M",50,330,"Q",225,20,400,330]).attr({"stroke-width":8});var startPoint2=path2.getPointAtLength(0);var circle2=paper2.ellipse(startPoint2.x,startPoint2.y,10,10).attr({stroke:"none",fill:"#f00"});var text2=paper2.text().attr({x:205,y:150,"font-size":36,"font-family":"Arial, Helvetica, sans-serif",text:"0%"});new _svgDrag2.default(path2,circle2,function(percent){text2.attr({text:percent+"%"});});
 
 /***/ },
 /* 1 */
