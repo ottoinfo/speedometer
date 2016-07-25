@@ -5,14 +5,15 @@
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --display-error-details",
-    "dev": "webpack-dev-server --display-error-details --progress --colors --inline --hot"
+    "dev": "webpack-dev-server --display-error-details --progress --colors --inline --hot",
+    "deploy:gh": "gh-pages -d dist"
   },
   "keywords": [
     "react"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ottoinfo/gallery_app.git"
+    "url": "git+https://github.com/ottoinfo/speedometer.git"
   },
   "author": "Matthew Otto <matt@ottoinfo.com> (http://ottoinfo.com/)",
   "license": "ISC",
@@ -44,6 +45,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file": "^0.2.2",
     "file-loader": "^0.9.0",
+    "gh-pages": "^0.11.0",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
